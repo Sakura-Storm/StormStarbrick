@@ -1,0 +1,184 @@
+body {
+    background-color: #333;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: .8px greenyellow
+    
+  }
+
+
+.mission{
+    margin: auto;
+    color: black;
+    -webkit-text-stroke: 1px greenyellow;
+}
+
+hr{
+    height: 3px;
+    background-color: black;
+    border: none;
+}
+
+.column {
+    float: left;
+    margin: auto;
+    padding: 2.5%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 80%;
+    }
+}
+
+  .button {
+    background-color: black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid greenyellow;
+    transition-duration: 0.4s;
+  }
+
+  .button:hover {
+    background-color: white;
+    color: black;
+    -webkit-text-stroke: black;
+  }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: black;
+    overflow: hidden;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    -webkit-text-stroke: 1px greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    
+    /* Add an active class to highlight the current page */
+    .topnav a.active {
+    background-color: greenyellow;
+    color: black;
+    -webkit-text-stroke: 1px black;
+    }
+    
+    .topnav a.visited {
+      color: black;
+      -webkit-text-stroke: 1px greenyellow;
+    }
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+    display: none;
+    }
+    
+    /* Style the search box inside the navigation bar */
+    .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: 1px greenyellow solid;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    color: black;
+    }
+    
+    /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+    @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
