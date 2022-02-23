@@ -1,7 +1,7 @@
 body{
     background-color: black;
     color: black;
-    -webkit-text-stroke: 1px Lime;
+    -webkit-text-stroke: .5px Lime;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,7 +10,7 @@ body{
 .mission{
     margin: 100px;
     color: black;
-    -webkit-text-stroke: 1px Lime;
+    -webkit-text-stroke: .5px Lime;
 }
 
 hr{
@@ -51,7 +51,7 @@ hr{
     display: inline-block;
     font-size: 16px;
     border-radius: 8px;
-    border: 2px solid Lime;
+    border: 5px solid Lime;
     transition-duration: 0.4s;
 }
 
