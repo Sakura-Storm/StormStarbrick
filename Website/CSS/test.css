@@ -1,0 +1,12 @@
+body {
+    height: 5000px;
+    background: linear-gradient(#00ff04, #09aad3);
+}
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+.hidden {
+    display: none;
+}
