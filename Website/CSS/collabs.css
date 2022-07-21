@@ -61,6 +61,19 @@ hr{
     -webkit-text-stroke: black;
 }
 
+.button:visited {
+    background-color: black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 5px solid Lime;
+    transition-duration: 0.4s;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: black;
